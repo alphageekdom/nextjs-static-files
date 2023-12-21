@@ -15,6 +15,7 @@
 
 # production
 /build
+/src/styles/bootstrap
 
 # misc
 .DS_Store

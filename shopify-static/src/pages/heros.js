@@ -1,6 +1,6 @@
 import ShowLayout from '@/components/layouts/ShowLayout';
-import Hero1 from '@/components/hero/Hero1/Hero1';
-import Hero2 from '@/components/hero/Hero2/Hero2';
+import Hero1 from '@/components/Hero/Hero1/Hero1';
+import Hero2 from '@/components/Hero/Hero2/Hero2';
 
 export default function Heros() {
   return (
