@@ -1,8 +1,8 @@
 import Header2 from '@/components/header/Header2/Header2';
-import ShowLayout from '../components/layouts/ShowLayout';
 import Header1 from '@/components/header/Header1/Header1';
 import Header3 from '@/components/header/Header3/Header3';
 import Header4 from '@/components/header/Header4/Header4';
+import ShowLayout from '@/components/layouts/ShowLayout';
 
 export default function Home() {
   return (
