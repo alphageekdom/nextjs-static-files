@@ -3,9 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px;
   background: #fcfcfc;
   color: #1b1b1b;
+  padding: 0 10px;
+  height: 84px;
   a {
     font-family: sans-serif;
     text-decoration: none;
@@ -27,6 +28,10 @@
     a {
       font-size: 2rem;
       font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
