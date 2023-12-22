@@ -6,6 +6,14 @@ body {
   background-color: #f7f9fd;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: red;
+  }
+}
+
 .fixed-nav {
   &.nav-transparent {
     .header {

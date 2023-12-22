@@ -32,8 +32,8 @@ export default function Collections4() {
                   src={data[currentIndex]['url']}
                   alt='Shoes'
                   className='collection4__img-front item'
-                  id={data[currentIndex]['id']}
                 />
+                ;
                 <div className='collection4__buttons'>
                   <div className='collection4__btn-left'>
                     <FaArrowAltCircleLeft size={40} onClick={prevSlide} />
@@ -56,7 +56,7 @@ export default function Collections4() {
               </div>
             </div>
           </div>
-          <div className='col-md-3'>
+          {/* <div className='col-md-3'>
             <div className='collection4__collection-item'>
               <div className='collection4__product-img'>
                 <div className='collection4__heart'>
@@ -71,7 +71,6 @@ export default function Collections4() {
                   <div className='collection4__btn-left'>
                     <FaArrowAltCircleLeft size={40} onClick={prevSlide} />
                   </div>
-                  {/* Right Button */}
                   <div className='collection4__btn-right'>
                     <FaArrowAltCircleRight size={40} onClick={nextSlide} />
                   </div>
@@ -88,8 +87,8 @@ export default function Collections4() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className='col-md-3'>
+          </div> */}
+          {/* <div className='col-md-3'>
             <div className='collection4__collection-item'>
               <div className='collection4__product-img'>
                 <div className='collection4__heart'>
@@ -104,7 +103,6 @@ export default function Collections4() {
                   <div className='collection4__btn-left'>
                     <FaArrowAltCircleLeft size={40} onClick={prevSlide} />
                   </div>
-                  {/* Right Button */}
                   <div className='collection4__btn-right'>
                     <FaArrowAltCircleRight size={40} onClick={nextSlide} />
                   </div>
@@ -121,8 +119,8 @@ export default function Collections4() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className='col-md-3'>
+          </div> */}
+          {/* <div className='col-md-3'>
             <div className='collection4__collection-item'>
               <div className='collection4__product-img'>
                 <div className='collection4__heart'>
@@ -137,7 +135,6 @@ export default function Collections4() {
                   <div className='collection4__btn-left'>
                     <FaArrowAltCircleLeft size={40} onClick={prevSlide} />
                   </div>
-                  {/* Right Button */}
                   <div className='collection4__btn-right'>
                     <FaArrowAltCircleRight size={40} onClick={nextSlide} />
                   </div>
@@ -154,7 +151,7 @@ export default function Collections4() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
