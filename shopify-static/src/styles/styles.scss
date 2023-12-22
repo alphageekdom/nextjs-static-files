@@ -21,6 +21,19 @@ a {
       a {
         color: white;
       }
+      .header1__collection-link,
+      .header2__collection-link,
+      .header3__collection-link,
+      .header4__collection-link {
+        .collection-link__sub-links {
+          a {
+            color: black;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
     }
   }
   .header {
