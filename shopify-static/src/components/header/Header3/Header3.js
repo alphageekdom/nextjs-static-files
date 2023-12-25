@@ -7,9 +7,11 @@ export default function Header3() {
       <div className='header3__logo'>
         <a href='/link'>LOGO</a>
       </div>
-      <div className='header3__collections-nav'>
-        <a href='/link' className='header3__collection-link'>
-          Link <FaAngleDown />
+      <ul className='header3__collections-nav'>
+        <li className='header3__collection-link'>
+          <a href='/link'>
+            Link <FaAngleDown />
+          </a>
           <ul className='collection-link__sub-links'>
             <li>
               <a href='#'>Link</a>
@@ -24,33 +26,20 @@ export default function Header3() {
               <a href='#'>Link</a>
             </li>
           </ul>
-        </a>
-        <a href='/link' className='header3__collection-link'>
-          Link
-        </a>
-        <a href='/link' className='header3__collection-link'>
-          Link
-        </a>
-        <a href='/link' className='header3__collection-link'>
-          Link
-        </a>
-        <a href='/link' className='header3__collection-link'>
-          Link <FaAngleDown />
-          <ul className='collection-link__sub-links'>
-            <li>
-              <a href='#'>Link</a>
-            </li>
-            <li>
-              <a href='#'>Link</a>
-            </li>
-            <li>
-              <a href='#'>Link</a>
-            </li>
-            <li>
-              <a href='#'>Link</a>
-            </li>
-          </ul>
-        </a>
+        </li>
+
+        <li className='header3__collection-link'>
+          <a href='/link'>Link</a>
+        </li>
+        <li className='header3__collection-link'>
+          <a href='/link'>Link</a>
+        </li>
+        <li className='header3__collection-link'>
+          <a href='/link'>Link</a>
+        </li>
+        <li className='header3__collection-link'>
+          <a href='/link'>Link</a>
+        </li>
         <a href='/link'>
           <IoPersonOutline />
         </a>
@@ -58,7 +47,7 @@ export default function Header3() {
         <a href='/cart'>
           <IoCartOutline />
         </a>
-      </div>
+      </ul>
     </header>
   );
 }

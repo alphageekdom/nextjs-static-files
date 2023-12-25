@@ -10,12 +10,11 @@ export default function Header4() {
         <div className='header4__logo'>
           <a href='/link'>LOGO</a>
         </div>
-        <div className='header4__collections-nav'>
-          <a href='/link' className='header4__collection-link'>
-            Link
-          </a>
-          <a href='/link' className='header4__collection-link'>
-            Link <FaAngleDown />
+        <ul className='header4__collections-nav'>
+          <li className='header4__collection-link'>
+            <a href='/link'>
+              Link <FaAngleDown />
+            </a>
             <ul className='collection-link__sub-links'>
               <li>
                 <a href='#'>Link</a>
@@ -30,30 +29,13 @@ export default function Header4() {
                 <a href='#'>Link</a>
               </li>
             </ul>
-          </a>
-          <a href='/link' className='header4__collection-link'>
-            Link <FaAngleDown />
-            <ul className='collection-link__sub-links'>
-              <li>
-                <a href='#'>Link</a>
-              </li>
-              <li>
-                <a href='#'>Link</a>
-              </li>
-              <li>
-                <a href='#'>Link</a>
-              </li>
-              <li>
-                <a href='#'>Link</a>
-              </li>
-            </ul>
-          </a>
-          <a href='/link' className='header4__collection-link'>
-            Link
-          </a>
-          <a href='/link' className='header4__collection-link'>
-            Link
-          </a>
+          </li>
+          <li className='header4__collection-link'>
+            <a href='/link'>Link</a>
+          </li>
+          <li className='header4__collection-link'>
+            <a href='/link'>Link</a>
+          </li>
           <a href='/link'>
             <IoPersonOutline />
           </a>
@@ -61,7 +43,7 @@ export default function Header4() {
           <a href='/cart'>
             <IoCartOutline />
           </a>
-        </div>
+        </ul>
       </header>
     </>
   );
